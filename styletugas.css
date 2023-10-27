@@ -1,0 +1,109 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: rgb(244, 240, 225);
+    color: rgb(95, 72, 72);
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgba(204, 186, 173, 0.852);
+}
+.header{
+    padding: 15px;
+    
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+    
+    
+}
+.container .header ul {
+    margin-left: -40px;
+}
+
+.header a {
+    text-decoration: none;
+    color: floralwhite;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: rgba(111, 93, 80, 0.852);
+    color: white;
+}
+
+.hero {
+    height: 700px;
+    background-image: url(https://www.indonesia.travel/content/dam/indtravelrevamp/id-id/destinasi/labuan-bajo/thumbnail.jpg);
+    background-size: cover;
+    background-position: 0 -75px;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content .penulis{
+    margin-top: -15px;
+    font-size: 16px;
+}
+
+.content .penulis {
+    text-decoration: none;
+    color: indianred;
+}
+
+.content p {
+    text-align: justify;
+
+}
+
+.tableheading h2 {
+    padding: 15px;
+    margin-top: -20px;
+
+}
+.tablejenis {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 780px;
+    height: 100px;
+    text-align: justify;
+    margin-top: -20px;
+    margin-left: 10px;
+
+}
+
+td {
+    text-align: justify;
+    padding: 15px;
+}
+
+th {
+    text-align: center;
+    background-color: rgba(111, 93, 80, 0.852);
+    color: beige;
+}
+
+.footer {
+    background-color: rgba(143, 128, 118, 0.852);
+    text-align: center;
+}
+
+.footer p {
+    color: floralwhite;
+    font-size: 16px;
+    letter-spacing: 3px;
+
+}
+
+.footer .besar {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
